@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Full viewport height */
+    display: flex; /* Enable Flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-image: url('1352896.png'); /* Replace with your image URL */
+    background-size: cover; /* Make the image cover the entire screen */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Avoid repeating the image */
+    background-color: #f4f4f4; /* Fallback background color */
+    color: #333; /* Text color */
+}
+
+header {
+    background-color: #1e1e2f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 600px; /* Limit the container width */
+    text-align: center; /* Center text inside the container */
+}
+
+button {
+    background-color: #d00000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #800000;
+    transform: scale(1.05);
+}
+
+.results {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    background: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: none; /* Hidden by default */
+}
+
+.results.visible {
+    display: block; /* Show when visible class is added */
+}
+
+#display-panis > ol{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 90%;
+    list-style-type: none;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+#display-panis > ol > li {
+    color:#f6a800;
+
+}
